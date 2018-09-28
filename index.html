@@ -1,534 +1,525 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Lemex: Responsive Single Page Template</title>
-    <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-	 <script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
-	<script src="js/jquery.scrollTo.js"></script>
-	<script src="js/jquery.nav.js"></script>
-	 <script type="text/javascript" src="js/jquery.flexslider.js"></script>
-   <script src="js/jquery.scrollTo-1.4.3.1.min.js"></script>
-   <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	 <script type="text/javascript" src="js/forms.js"></script>
-   <script src="js/touchTouch.jquery.js"></script>
-   <script src="js/jquery.tweet.js"></script>
-	 <script src="js/script.js"></script>
-	 <script type="text/javascript">
-			$(document).ready(function(){
-				$('.flexslider').flexslider({
-				  animation: "slide"
-				});
-				$('.port_col a').touchTouch();
-        $('.port_col a').append('<em></em><span></span>');
-			 });
-			$(function(){
-				$('.sf-menu').onePageNav({
-					begin: function() {
-					
-					},
-					end: function() {
-					
-					},
-				scrollOffset: 30
-				});
-				$('.main-menu').prepend('<div id="menu-icon"></div>');
-				$("#menu-icon").on("click", function(){
-					$(".sf-menu").slideToggle();
-					$(this).toggleClass("active");
-				});
-			})
-	 </script>
-	<!--[if lt IE 8]>
-   <div style=' clear: both; text-align:center; position: relative;'>
-     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-    </a>
-  </div>
-<![endif]-->
-    <!--[if lt IE 9]>
-   	<script type="text/javascript" src="js/html5.js"></script>
-    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-    <![endif]-->
-</head>
-<body>
-<!--==============================header=================================-->
-   	<header>
-	    <div class="inner">
-        <div class="main">
-            <h1><a class="logo" href="index.html">Lemex</a></h1>
-            <nav class="main-menu">
-                <ul class="sf-menu">
-                  <li class="current"><a href="#home">Home</a></li>
-									<li><a href="#services">Services</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="#blog">Blog</a></li>
-                  <li><a href="#our_team">Our Team</a></li>
-                  <li><a href="#contacts">Contacts</a></li>
-               </ul>
-               <div class="clear"></div>
-            </nav>
-            <div class="clear"></div>
-        </div>
-      </div>
-    </header>
-<!--==============================content================================-->
-    <section id="content">
-    	<ul id="pages">
-        <!-- Home page -->
-        <li id="home" class="slide">
-          <div class="inner">
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <img src="images/slide1.png" alt="">
-                  <div class="banner">
-                    <div class="inner">
-                      <div class="title">
-                        <div class="title1"><strong>lemex</strong> is a one page</div>
-                        <div class="title2">html <strong>theme</strong></div>
-                        <a href="#" class="button">Purchase now</a>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <img src="images/slide1.png" alt="">
-                  <div class="banner">
-                    <div class="inner">
-                      <div class="title">
-                        <div class="title1"><strong>lemex</strong> is a one page</div>
-                        <div class="title2">html5 <strong>theme</strong></div>
-                        <a href="#" class="button">Purchase now</a>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-								<li>
-                  <img src="images/slide1.png" alt="">
-                  <div class="banner">
-                    <div class="inner">
-                      <div class="title">
-                        <div class="title1"><strong>lemex</strong> is a one page</div>
-                        <div class="title2">html5 <strong>theme</strong></div>
-                        <a href="#" class="button">Purchase now</a>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <!-- home page end -->
-        
-        <!-- Service page start -->
-        <li id="services" class="slide bg1">
-          <div class="main slogan">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut <em class="font1">laoreet dolore magna</em> aliquam erat volutpat. 
-          </div>
-          <ul class="offers">
-            <li class="var1">
-              <div class="main">
-                <div class="wrapper bord_r">
-                  <div class="offer_col">
-                    <a href="#">
-                      <span class="top"><img src="images/offer1.png" alt=""></span>
-                      <span class="title">online support 24/7</span>
-                      <span class="description">
-                        Lorem ipsum magna aliquam erat volutpat. dolor sit conse ctetuer adipiscing elit
-                      </span>
-                    </a>
-                  </div>
-                  <div class="offer_col extra">
-                    <a href="#">
-                      <span class="top"><img src="images/offer2.png" alt=""></span>
-                      <span class="title">concept &amp; Design</span>
-                      <span class="description">
-                        Sed diam nonu magna aliquam <br>erat volutpat my nibh euismodt ut laoreet dolore
-                      </span>
-                    </a>
-                  </div>
-                  <div class="offer_col">
-                    <a href="#">
-                      <span class="top"><img src="images/offer3.png" alt=""></span>
-                      <span class="title">executing &amp; testing</span>
-                      <span class="description">
-                        Magna aliquam erat volutpat onummy nibh euismod tinci dunt ut laoreet dolore
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="var2">
-              <div class="main">
-                <div class="wrapper bord_r">
-                  <div class="offer_col">
-                    <a href="#">
-                      <span class="top"><img src="images/offer4.png" alt=""></span>
-                      <span class="title">online support 24/7</span>
-                      <span class="description">
-                        Lorem ipsum magna aliquam erat volutpat. dolor sit conse ctetuer adipiscing elit
-                      </span>
-                    </a>
-                  </div>
-                  <div class="offer_col extra">
-                    <a href="#">
-                      <span class="top"><img src="images/offer5.png" alt=""></span>
-                      <span class="title">Easy customization</span>
-                      <span class="description">
-                        Sed diam nonu magna aliquam <br>erat volutpat my nibh euismodt ut laoreet dolore
-                      </span>
-                    </a>
-                  </div>
-                  <div class="offer_col">
-                    <a href="#">
-                      <span class="top"><img src="images/offer6.png" alt=""></span>
-                      <span class="title">mobile ready</span>
-                      <span class="description">
-                        Magna aliquam erat volutpat onummy nibh euismod tinci dunt ut laoreet dolore
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-        <!-- Service End -->
-        <!-- Portfolio page start -->
-        <li id="portfolio" class="slide bg2">
-          <div class="main">
-            <div class="port_box">
-              <div class="port_col">
-                <a href="images/portfolio1.jpg">
-                  <img src="images/portfolio1.png" alt="">
-                </a>
-                <div>
-                  Star Cat
-                </div>
-              </div>
-              <div class="port_col">
-                <a href="images/portfolio2.jpg">
-                  <img src="images/portfolio2.png" alt="">
-                </a>
-                <div>
-                  Silent Night
-                </div>
-              </div>
-              <div class="port_col">
-                <a href="images/portfolio3.jpg">
-                  <img src="images/portfolio3.png" alt="">
-                </a>
-                <div>
-                  BusinessMan t-shirt
-                </div>
-              </div>
-              <div class="clear"></div>
-            </div>
-            <div class="port_box">
-              <div class="port_col">
-                <a href="images/portfolio4.jpg">
-                  <img src="images/portfolio4.png" alt="">
-                </a>
-                <div>
-                  Eat Me
-                </div>
-              </div>
-              <div class="port_col">
-                <a href="images/portfolio5.jpg">
-                  <img src="images/portfolio5.png" alt="">
-                </a>
-                <div>
-                  Happy Cartoons
-                </div>
-              </div>
-              <div class="port_col">
-                <a href="images/portfolio6.jpg">
-                  <img src="images/portfolio6.png" alt="">
-                </a>
-                <div>
-                  Mysterious World
-                </div>
-              </div>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </li>
-        <!-- Portfolio page end -->
-        <li id="blog" class="slide bg1">
-          <div class="main">
-            <div class="col1">
-              <ul class="ext_list blog sans">
-                <li class="clearfix">
-                  <figure>
-                    <time datetime="2013-01-01">
-                      <strong>22</strong>
-                      nov
-                    </time>
-                    <a href="#">
-                      <strong>12</strong>
-                      comments
-                    </a>
-                  </figure>
-                  <div>
-                    <figure>
-                      <a href="#"><img src="images/blog1.jpg" alt=""></a>
-                    </figure>
-                    <div class="text">
-                      Lorem ipsum dolor sit amet, consec tetuer
-                    </div>
-                  </div>
-                </li>
-                <li class="clearfix last">
-                  <figure>
-                    <time datetime="2013-01-01">
-                      <strong>26</strong>
-                      dec
-                    </time>
-                    <a href="#">
-                      <strong>24</strong>
-                      comments
-                    </a>
-                  </figure>
-                  <div>
-                    <figure>
-                      <a href="#"><img src="images/blog2.jpg" alt=""></a>
-                    </figure>
-                    <div class="text">
-                      Lorem ipsum dolor sit amet, consec tetuer
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <div class="blog_nav_box">
-                <ul class="blog_nav">
-                  <li class="current"><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li><a href="#">6</a></li>
-                  <li><a href="#">7</a></li>
-                </ul>
-                <a href="#" class="blog_prev nav_btn"></a>
-                <a href="#" class="blog_next nav_btn"></a>
-                <div class="clear"></div>
-              </div>
-            </div>
-            <div class="col2">
-              <h4 class="ind">Recent Posts</h4>
-              <ul class="ext_list sans posts">
-                <li>
-                  <figure><img src="images/post1.png" alt=""></figure>
-                  <div>
-                    <time datetime="2013-01-01">November 12, 2012</time>
-                    <a href="#"><strong>Lorem ipsum dolor sit amet consec tetuer</strong></a>
-                  </div>
-                </li>
-                <li>
-                  <figure><img src="images/post2.png" alt=""></figure>
-                  <div>
-                    <time datetime="2013-01-01">November 12, 2012</time>
-                    <a href="#"><strong>Lorem ipsum dolor sit am</strong></a>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <time datetime="2013-01-01">November 12, 2012</time>
-                    <a href="#"><strong>Consectetuer adipi scing elit</strong></a>
-                  </div>
-                </li>
-                <li class="last">
-                  <figure><img src="images/post1.png" alt=""></figure>
-                  <div>
-                    <time datetime="2013-01-01">November 12, 2012</time>
-                    <a href="#"><strong>Lorem ipsum dolor sit amet consec tetuer</strong></a>
-                  </div>
-                </li>
-              </ul>
-              <h4 class="ind1">Recent Comments</h4>
-              <ul class="comments">
-                <li>
-                  <a href="#">
-                    James on <strong>Lorem ipsum dolor sit 
-                      amet consec tetuer</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Admin on <strong>Dolor sit amet consec</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Sarah on <strong>Dolor Ipsum sed ur per sit amet consec</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Admin on <strong>Dolor sit amet consec</strong>
-                  </a>
-                </li>
-                <li class="last">
-                  <a href="#">
-                    James on <strong>Lorem ipsum dolor sit 
-                      amet consec tetuer</strong>
-                  </a>
-                </li>
-              </ul>
-              <a class="banner" href="#"><img src="images/banner.png" alt=""></a>
-              <h4 class="ind2">Archives</h4>
-              <ul class="archive">
-                <li><a href="#">June 2012</a></li>
-                <li><a href="#">July 2012</a></li>
-                <li><a href="#">August 2012</a></li>
-                <li><a href="#">September 2012</a></li>
-                <li><a href="#">October 2012</a></li>
-                <li class="last"><a href="#">November 2012 </a></li>
-              </ul>
-            </div>
-            <div class="clear"></div>
-          </div>
-        </li>
-        <!-- Team Page Start -->
-        <li id="our_team" class="slide bg2">
-          <div class="main">
-            <div class="team_box">
-              <div class="team">
-                <figure>
-                  <a href="#"><img src="images/team1.jpg" alt=""></a>
-                </figure>
-                <div class="text">
-                  <h5>sarah Stanberg</h5>
-                  <div class="stat">tech support</div>
-                </div>
-                <div class="social">
-                  <a href="#"><img src="images/soc1.png" alt=""></a>
-                  <a href="#"><img src="images/soc2.png" alt=""></a>
-                  <a href="#"><img src="images/soc3.png" alt=""></a>
-                  <a href="#"><img src="images/soc4.png" alt=""></a>
-                  <a href="#"><img src="images/soc5.png" alt=""></a>
-                </div>
-              </div>
-              <div class="team">
-                <figure>
-                  <a href="#"><img src="images/team2.jpg" alt=""></a>
-                </figure>
-                <div class="text">
-                  <h5>John Doe</h5>
-                  <div class="stat">designer</div>
-                </div>
-                <div class="social">
-                  <a href="#"><img src="images/soc1.png" alt=""></a>
-                  <a href="#"><img src="images/soc2.png" alt=""></a>
-                  <a href="#"><img src="images/soc3.png" alt=""></a>
-                  <a href="#"><img src="images/soc4.png" alt=""></a>
-                  <a href="#"><img src="images/soc5.png" alt=""></a>
-                </div>
-              </div>
-              <div class="team">
-                <figure>
-                  <a href="#"><img src="images/team3.jpg" alt=""></a>
-                </figure>
-                <div class="text">
-                  <h5>Anna Milson</h5>
-                  <div class="stat">manager</div>
-                </div>
-                <div class="social">
-                  <a href="#"><img src="images/soc1.png" alt=""></a>
-                  <a href="#"><img src="images/soc2.png" alt=""></a>
-                  <a href="#"><img src="images/soc3.png" alt=""></a>
-                  <a href="#"><img src="images/soc4.png" alt=""></a>
-                  <a href="#"><img src="images/soc5.png" alt=""></a>
-                </div>
-              </div>
-              <div class="clear"></div>
-            </div>
-          </div>
-        </li>
-        <!-- Team Page End -->
-        
-        <!-- Contacts Page Start -->
-        <li id="contacts" class="slide bg1">
-          <div class="main">
-            <span class="map_wrapper">
-              <iframe id="map_canvas" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-              </span>
-            <div class="wrapper">
-              <div class="col3">
-                <div class="title1"><img src="images/logo2.png" alt="logo2" /></div>
-                <div class="font2">
-                  <p class="p2"><strong>10293, Kansas City, Street Name, USA / 123.456.7890</strong></p>
-Sed diam nonu magna aliquam erat volutpat my nibh euismodt ut laoreet dol diam nonu magna aliquam er modt ut laoreet  diam nonu magna ali- quam erat volutpat my nibh euismodt ut laoreet dolore
-                </div>
-              </div>
-              <div class="col4">
-                <form id="contact-form">
-                  <div class="success">Contact form submitted!<br>
-                      <strong>We will be in touch soon.</strong>
-                  </div>
-                  <fieldset>
-                    <label class="name">
-                      <input type="text" value="Name">
-                        <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span>
-                    </label>
-                    <label class="email">
-                      <input type="text" value="Email">
-                        <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
-                    </label>
-                    <div class="buttons2">
-                        <a href="#" data-type="submit" class="button">Send</a>
-                    </div>
-                  </fieldset>
-              </form>
-              </div>
-            </div>
-          </div>
-        </li>
-        <!-- Contacts Page end -->
-      </ul>
-    </section>
-    <aside>
-      <div class="main">
-        <div class="aside_cols">
-          <div class="aside_col">
-            <h4>Text Widget</h4>
-            <p>Sed diam nonu magna aliquam erat volu tpat my nibh eui smodt ut laor eet dol diam nonu magna aliquam</p>
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Adventure</title>
 
-Er modt ut laoreet  diam nonu<br> magna aliquam erat volutpat my nibh euismodt ut laoreet dolore
-          </div>
-          <div class="aside_col">
-            <h4>Latest Tweets</h4>
-            <div id="twitter" class="twitter"></div>
-          </div>
-<div class="aside_col">
-            <h4>Latest portfolio</h4>
-            <ul class="portfolio2">
-              <li>
-                <a href="#"><img src="images/port1.png" alt=""></a>
-                <a href="#"><img src="images/port2.png" alt=""></a>
-                <a href="#"><img src="images/port3.png" alt=""></a>
-                <div class="clear"></div>
-              </li>
-              <li class="last">
-                <a href="#"><img src="images/port4.png" alt=""></a>
-                <a href="#"><img src="images/port5.png" alt=""></a>
-                <a href="#"><img src="images/port6.png" alt=""></a>
-                <div class="clear"></div>
-              </li>
-            </ul>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-    </aside>
-    <footer>
-      <div class="main">Copyright 2012 - Lemex</div>
-    </footer>
-</body>
-</html>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>
+			<!-- start banner Area -->
+			<section class="banner-area" id="home">
+				<!-- Start Header Area -->
+				<header class="default-header">
+					<nav class="navbar navbar-expand-lg  navbar-light">
+						<div class="container">
+							  <a class="navbar-brand" href="index.html">
+							  	<img src="img/logo.png" alt="">
+							  </a>
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="text-white lnr lnr-menu"></span>
+							  </button>
+
+							  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+							    <ul class="navbar-nav">
+									<li><a href="#home">Home</a></li>
+									<li><a href="#about">About</a></li>									
+									<li><a href="#secvice">Service</a></li>
+									<li><a href="#gallery">Gallery</a></li>
+									<li><a href="#faq">Faq</a></li>
+									<li><a href="#contact">Contact</a></li>
+									<!-- Dropdown -->
+								    <li class="dropdown">
+								      <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								        Pages
+								      </a>
+								      <div class="dropdown-menu">
+								        <a class="dropdown-item" href="generic.html">Generic</a>
+								        <a class="dropdown-item" href="elements.html">Elements</a>
+								      </div>
+								    </li>
+							    </ul>
+							  </div>						
+						</div>
+					</nav>
+				</header>
+				<!-- End Header Area -->				
+			</section>
+
+			<section class="default-banner active-blog-slider">
+					<div class="item-slider relative" style="background: url(img/slider1.jpg);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">Discover the Colorful World</h4>
+										<h1 class="text-uppercase text-white">New Adventure</h1>
+										<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br>
+										or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+										<a href="#" class="text-uppercase header-btn">Discover Now</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="item-slider relative" style="background: url(img/slider2.jpg);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">Discover the Colorful World</h4>
+										<h1 class="text-uppercase text-white">New Trip</h1>
+										<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br>
+										or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+										<a href="#" class="text-uppercase header-btn">Discover Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-slider relative" style="background: url(img/slider3.jpg);background-size: cover;">
+						<div class="overlay" style="background: rgba(0,0,0,.3)"></div>
+						<div class="container">
+							<div class="row fullscreen justify-content-center align-items-center">
+								<div class="col-md-10 col-12">
+									<div class="banner-content text-center">
+										<h4 class="text-white mb-20 text-uppercase">Discover the Colorful World</h4>
+										<h1 class="text-uppercase text-white">New Experience</h1>
+										<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br>
+										or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+										<a href="#" class="text-uppercase header-btn">Discover Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Start about Area -->
+			<section class="section-gap info-area" id="about">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-40 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Why Choose Us Your Fitness Builder</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>					
+					<div class="single-info row mt-40">
+						<div class="col-lg-6 col-md-12 mt-120 text-center no-padding info-left">
+							<div class="info-thumb">
+								<img src="img/about-img.jpg" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12 no-padding info-rigth">
+							<div class="info-content">
+								<h2 class="pb-30">We Realize that <br>
+								there are reduced <br>
+								Wastege Stand out</h2>
+								<p>
+									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.									
+								</p>
+								<br>
+								<p>
+									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.									
+								</p>
+								<br>
+								<p>
+									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.
+								</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End about Area -->
+			
+			
+			<!-- Start project Area -->
+			<section class="project-area section-gap" id="project">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-30 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Latest Project on the go</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore  et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row justify-content-center d-flex">
+						<div class="active-works-carousel mt-40 col-lg-8">
+							<div class="item">
+								<img class="img-fluid" src="img/why.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Vector Illustration</h6>
+									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have <br> allowed humanity to create slimmer, more portable technology.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/why.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Vector Illustration</h6>
+									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have <br> allowed humanity to create slimmer, more portable technology.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/why.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Vector Illustration</h6>
+									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have <br> allowed humanity to create slimmer, more portable technology.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/why.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Vector Illustration</h6>
+									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have <br> allowed humanity to create slimmer, more portable technology.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/why.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Vector Illustration</h6>
+									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have <br> allowed humanity to create slimmer, more portable technology.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End project Area -->
+
+
+			<!-- Start feature Area -->
+			<section class="feature-area section-gap" id="secvice">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Some Features that Made us Unique</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>						
+					<div class="row">
+						<div class="col-lg-4 col-md-6 ">
+							<div class="single-feature mb-30">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-user"></span>
+									<h4><a href="#">Expert Technicians</a></h4>
+								</div>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-4 col-md-6 ">
+							<div class="single-feature mb-30">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-license"></span>
+									<h4><a href="#">Professional Service</a></h4>
+								</div>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-4 col-md-6 ">
+							<div class="single-feature mb-30">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-phone"></span>
+									<h4><a href="#">Great Support</a></h4>
+								</div>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-4 col-md-6 ">
+							<div class="single-feature">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-rocket"></span>
+									<h4><a href="#">Technical Skills</a></h4>
+								</div>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-4 col-md-6 ">
+							<div class="single-feature">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-diamond"></span>
+									<h4><a href="#">Highly Recomended</a></h4>
+								</div>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>							
+							</div>							
+						</div>
+						<div class="col-lg-4 col-md-6 ">
+							<div class="single-feature">
+								<div class="title d-flex flex-row pb-20">
+									<span class="lnr lnr-bubble"></span>
+									<h4><a href="#">Positive Reviews</a></h4>
+								</div>
+								<p>
+									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+								</p>							
+							</div>							
+						</div>																					
+					</div>
+				</div>	
+			</section>
+			<!-- End feature Area -->
+
+
+			<!-- Start gallery Area -->
+			<section class="gallery-area" id="gallery">
+				<div class="container-fluid">
+					<div class="row no-padding">
+						<div class="active-gallery">
+							<div class="item single-gallery">
+								<img src="img/g1.jpg" alt="">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/g2.jpg" alt="">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/g3.jpg" alt="">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/g4.jpg" alt="">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/g5.jpg" alt="">
+							</div>	
+							<div class="item single-gallery">
+								<img src="img/g6.jpg" alt="">
+							</div>																		
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End gallery Area -->
+			
+			
+			<!-- Start faq Area -->
+			<section class="faq-area section-gap" id="faq">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Frequently Asked Questions</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>							
+					<div class="row d-flex align-items-center">
+						<div class="counter-left col-lg-3 col-md-3">
+							<div class="single-facts">
+								<h2 class="counter">5962</h2>
+								<p>Projects Completed</p>							
+							</div>
+							<div class="single-facts">
+								<h2 class="counter">2394</h2>
+								<p>New Projects</p>							
+							</div>
+							<div class="single-facts">
+								<h2 class="counter">1439</h2>
+								<p>Tickets Submitted</p>							
+							</div>												
+							<div class="single-facts">
+								<h2 class="counter">933</h2>
+								<p>Cup of Coffee</p>							
+							</div>
+						</div>	
+						<div class="faq-content col-lg-9 col-md-9">
+							<div class="single-faq">
+								<h2 class="text-uppercase">
+									Are your Templates responsive?
+								</h2>
+								<p>
+									“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior.
+								</p>
+							</div>
+							<div class="single-faq">
+								<h2 class="text-uppercase">
+									Does it have all the plugin as mentioned?
+								</h2>
+								<p>
+									“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior.
+								</p>
+							</div>
+							<div class="single-faq">
+								<h2 class="text-uppercase">
+									Can i use the these theme for my client?
+								</h2>
+								<p>
+									“Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior.
+								</p>
+							</div>												
+						</div>									
+					</div>
+				</div>
+			</section>
+			<!-- End faq Area -->
+			
+			
+			<!-- Start Video Area -->
+			<section class="video-area pt-40 pb-40">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="video-content">
+						<a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="play-btn"><img src="img/play-btn.png" alt=""></a>
+						<div class="video-desc">
+							<h3 class="h2 text-white text-uppercase">Being unique is the preference</h3>
+							<h4 class="text-white">Youtube video will appear in popover</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Start Video Area -->
+			
+			
+			<!-- Start logo Area -->
+			<section class="logo-area">
+				<div class="container">
+					<div class="row">
+						
+					</div>
+				</div>	
+			</section>
+			<!-- End logo Area -->
+			
+							
+			<!-- start contact Area -->		
+			<section class="contact-area section-gap" id="contact">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">If you need, Just drop us a line</h1>
+								<p>Who are in extremely love with eco friendly system.</p>
+							</div>
+						</div>
+					</div>										
+					<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+						<div class="row">	
+						<div class="col-lg-6 form-group">
+							<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+						
+							<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+
+							<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
+						</div>
+						<div class="col-lg-6 form-group">
+							<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+							<button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
+							<div class="alert-msg">								
+						</div>
+						</div></div>
+					</form>						
+					
+				</div>	
+			</section>
+			<!-- end contact Area -->		
+			
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>About Us</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+								</p>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            		<p class="footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</div>
+						</div>
+						<div class="col-lg-5  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Newsletter</h6>
+								<p>Stay update with our latest</p>
+								<div class="" id="mc_embed_signup">
+
+										<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+
+										<div class="d-flex flex-row">
+
+											<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+
+
+				                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+				                            	<div style="position: absolute; left: -5000px;">
+													<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+												</div>
+				                          	
+											<!-- <div class="col-lg-4 col-md-4">
+												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
+											</div>  -->
+										</div>		
+										<div class="info"></div>
+										</form>
+								</div>
+								</div>
+						</div>						
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Follow Us</h6>
+								<p>Let us be social</p>
+								<div class="footer-social d-flex align-items-center">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+									<a href="#"><i class="fa fa-behance"></i></a>
+								</div>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->			
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/slick.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/waypoints.min.js"></script>		
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
